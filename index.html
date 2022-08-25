@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="title">
+            <h1>Minhas notas</h1>
+            <div class="card-body">
+                <h5>Adicionar nota</h5>
+                <div class="form-group">
+                    <textarea id="addTxt" class="form-control" placeholder="Escreva aqui sua nota" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" id="addBtn">Adicionar</button>
+            </div>
+        </div>
+        <div class="card">
+            
+            <hr>
+            <h1>Suas notas</h1>
+            <hr>
+            <div class="row container-fluid" id="notes"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
