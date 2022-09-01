@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+
+
 .main-container{
     display: flex;
     flex-direction: column;
@@ -39,3 +41,46 @@ textarea{
     border-radius: 10px;
     border: none;
 }
+
+.noteCard{
+    background-color: #FFFF99;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'Patrick Hand', 'Sans-serif';
+    
+}
+
+#notes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+}
+
+/* #btn-danger{
+    align-self: end;
+} */
+
+.card-title{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+#nota{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+#btn\ btn-danger {
+    align-self: end;
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0 0;
+  }

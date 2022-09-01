@@ -26,11 +26,12 @@ function showNotes(){
     let html = "";
     notesObj.forEach(function(element, index){
         html += `
-            <div class="noteCard my-2 mx-2 card" style="width:18 rem;">
-                <div class="card-body">
-                    <h5 class="card-title"> Note ${index + 1}</h5>
+            <div  class="noteCard my-2 mx-2 card" style="width:18 rem;">
+                <div id="nota" class="card-body">
                     <p class="card-text"> ${element}</p>
-                    <button id="btn btn-danger" onClick="deleteNote()"> Delete Note</button>
+                    <h5 class="card-title"> Nota ${index + 1}</h5>
+                    
+                    <button id="btn btn-danger" onClick="deleteNote()">X</button>
                 </div>
             </div>`;
     });
